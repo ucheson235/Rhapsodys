@@ -1,0 +1,805 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* nav bar with logo and li tags */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
+
+}
+
+#main-nav{
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+nav ul{
+    display: flex;
+   
+}
+
+nav ul li{
+    padding: 50px;
+    list-style: none;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+/* section 1 with background image */
+
+.hero{
+    background-image:url(https://www.thisdaystyle.ng/wp-content/uploads/2023/08/Kings-Burger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.hero{
+    text-align: center;
+    
+}
+
+.hero img{
+   padding-top: 500px;
+    
+}
+
+#nav{
+    background-color: black;
+    opacity: 0.7;
+}
+
+/* main section with image and button  */
+
+.rhapsodys{
+    background-color: #0C71C3;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.rhapsodys-img{
+    padding-left: 300px;
+
+}
+.rhapsodys-img img{
+    width: 250px;
+    align-items: center;
+    
+}
+
+.rhapsodys-btn{
+    padding-right: 800px;
+}
+.rhapsodys-btn button{
+    margin-top: 100px;
+   padding: 30px;
+   font-size: 4rem;
+   border: none;
+   border-radius: 10px;
+   color: #0C71C3;
+   font-weight: bolder;
+}
+
+/* mid section with grid cards  */
+
+.locations{
+    
+}
+
+.locations h1{
+    padding: 100px;
+    font-size: 15rem;
+    font-weight: bolder;
+    color: #0C71C3;
+    text-align: center;
+
+
+}
+.box1{
+    position: relative;
+}
+
+ .box1-layer{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 700px;
+
+ }
+
+  .box1 img{
+    width: 100%;
+    height: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
+} 
+
+.box1-text1{
+    padding-left: 400px;
+    color: #fff;
+    background-color: #0C71C3;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 10rem;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.box1-text2{
+    padding-left: 400px;
+    color: #0C71C3;
+    background-color: #fff;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 5rem;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin-bottom: 30px;
+
+
+}
+
+.box1-text3{
+    padding-left: 800px;
+    background-color: #fff;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 5rem;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin-bottom: 20px
+
+}
+
+.grid-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.box2{
+    position: relative;
+
+}
+
+.box2-text{
+    position: absolute;
+    top: 100px;
+}
+
+
+
+.mall h1{
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding-left: 200px;
+   margin-left: 150px;
+    background-color: #0C71C3;
+    opacity: 0.7;
+   
+}
+
+.number1 h3{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    background-color: #fff;
+   margin-left: 150px;
+   opacity: 0.7;
+}
+
+
+.box3{
+    position: relative;
+}
+
+.box3-text{
+    position: absolute;
+    top: 100px;
+}
+
+.Ikeja h1{
+    justify-content: center;
+    text-align: center;
+    padding-left: 200px;
+    color: #fff;
+    background-color: #0C71C3;
+    margin-left: 150px;
+    opacity: 0.7;
+}
+ 
+.number2{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    background-color: #fff;
+    margin-left: 150px;
+    opacity: 0.7;
+
+}
+
+/* section 4 with cards */
+#card-div{
+    margin-top: 50px;
+    background-color: #0C71C3;
+}
+
+.What h1{
+    color: #fff;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+/* footer with background image */
+footer{
+    position: relative;
+}
+
+
+.footer-div{
+    background-image: url(https://rhapsodys.ng/wp-content/uploads/2022/02/14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer-div2{
+    background-color: black;
+    height: 100vh;
+    opacity: 0.6;
+
+}
+
+.footer-layer{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 200px;
+}
+
+.online{
+    text-align: left;
+    color: #fff;
+}
+
+.online h5{ 
+    font-size: 5rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bolder;
+
+}
+
+.online h4{
+    font-size: 13rem;
+    font-weight: bolder;
+}
+
+form input{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   font-size: 3rem;
+   text-align: left;
+   
+}
+
+::placeholder{
+    color: #0C71C3;
+    font-weight: bold;
+}
+
+#name{
+    margin-right: 30px;
+}
+
+#email{
+    width: 100%;
+
+}
+
+textarea{
+    width: 100%;
+    font-size: 4rem;
+    padding: 10px;
+    
+   
+}
+
+form button{
+   padding: 30px;
+   margin-top: 20px;
+   font-size: 3rem;
+   font-weight: 300;
+   background-color: #0C71C3;
+   color: #fff;
+   border-radius: 10px;
+   outline: none;
+  
+   
+}
+
+.Copyright{
+    background-color: rgba(6, 0, 0, 0.896);
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 3rem;
+    text-align: center;
+   
+
+}
+
+.Copyright-img img{
+    padding: 5px;
+   
+}
+
+/* media queries */
+
+@media(max-width: 900px){
+    html{
+        font-size: 50%;
+    }
+
+    nav{
+        display: flex;
+        padding-left: 50px;
+        padding-right: 0;
+        text-align: center;
+        align-items: center;
+        background-color: black;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        
+    
+    }
+
+    nav ul{
+        display: none;
+       
+    }
+
+    .hero img{
+        padding-top: 200px;
+        width: 300px;
+         
+     }
+
+    .rhapsodys{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .rhapsodys-img{
+        padding-left: 20px;
+     
+    
+    }
+
+    .rhapsodys-img img{
+        width: 150px;
+        align-items: center;
+        padding-top: 50px;
+        
+    }
+
+    .rhapsodys-btn{
+        padding-right: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+    .locations h1{
+        padding: 50px;
+        font-size: 5rem;
+    }
+
+    .box1 img{
+        width: 110%;
+        height: 300px;
+        padding-left: 100px;
+        padding-right: 200x;
+    } 
+
+    .box1-text1{
+        padding-left: 200px;
+        background-color: #0C71C3;
+        margin-right: 200px;
+        margin-left: 200px;
+        font-size: 2rem;
+        font-weight: 500;
+        opacity: 0.8;
+        margin-bottom: 20px;
+    }
+
+    .box1-text2{
+        padding-left: 100px;
+        color: #0C71C3;
+        background-color: #fff;
+        margin-right: 200px;
+        margin-left: 200px;
+        font-size: 1rem;
+        font-weight: bolder;
+        opacity: 0.8;
+        margin-bottom: 20px;
+    
+    
+    }
+
+    .box1-text3{
+        padding-left: 200px;
+        margin-right: 200px;
+        margin-left: 200px;
+        font-size: 1rem;
+        font-weight: bolder;
+        opacity: 0.8;
+        margin-bottom: 20px
+    
+    }
+
+    .grid-div{
+        margin-top: 50px;
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .grid-div img{
+        height: 300px;
+        padding-bottom: 20px;
+    }
+
+    .Ikeja h1{
+        justify-content: center;
+        text-align: center;
+        padding-left: 100px;
+        font-size: 4rem;
+        margin-left: 300px;
+       
+       
+    }
+
+    .box3-text{
+        position: absolute;
+        top: 10px;
+    }
+
+    .number2 h3{
+        margin-top: 5px;
+        font-size: 2rem;
+        margin-left: 0px;
+        
+      
+    }
+    .number2{
+        margin-left: 300px;
+    }
+
+    .mall h1{
+        justify-content: center;
+        text-align: center;
+        padding-left: 100px;
+        margin-left: 250px;
+        font-size: 3rem;
+        
+       
+    }
+
+    .box2-text{
+        position: absolute;
+        top: 10px;
+    }
+
+    .number1 h3{
+        margin-top: 10px;
+        font-size: 2rem;
+       margin-left: 200px;
+      
+    }
+
+    .number1{
+        margin-left: 50px;
+    }
+
+    .card img{
+        width: 450px;
+        padding: 0;
+        padding-right: 150px;
+        margin-bottom: 20px;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns:30% 30%;
+    }
+
+    .footer-layer{
+        position: absolute;
+        top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .online h5{ 
+        font-size: 2rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bolder;
+    
+    }
+
+    .online h4{
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+
+    form input{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       font-size: 1rem;
+       text-align: left;
+       
+    }
+
+    #name{
+        margin-right: 5px;
+    }
+
+    #email{
+        width: 100%;
+    
+    }
+
+    textarea{
+        width: 100%;
+        font-size: 2rem;
+        padding: 10px;
+        
+       
+    }
+
+    form button{
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 1rem;
+        font-weight: 100;
+        border-radius: 0px;
+        outline: none;
+       
+        
+     }
+
+     .footer-div{
+        height: 65vh;
+    }
+     .footer-div2{
+        height: 65vh;
+    }
+
+    .Copyright{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        font-size: 2rem;
+        text-align: center;
+       
+    
+    }
+
+    .Copyright img{
+        padding: 1px;
+        width: 20px;
+    }
+
+    
+
+
+}
+
+@media(max-width: 500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .hero{
+        width: 100%;
+        
+    }
+
+    .hero img{
+        display: none;
+    }
+
+    .rhapsodys{
+        display: block;
+        
+    }
+
+    .rhapsodys-img img{
+        width: 150px;
+        align-items: center;
+        padding-top: 20px;
+        
+    }
+
+    .rhapsodys-img{
+        padding-left: 100px;
+     
+    
+    }
+    .rhapsodys-btn {
+        margin-left: 100px;
+    }
+
+    .rhapsodys-btn button{
+        margin-top: 50px;
+       padding: 20px;
+       font-size: 2rem;
+       border-radius: 10px;
+       
+       
+    }
+
+    .box1 img{
+       display: none;
+    } 
+
+    .Ikeja h1{
+      display: none;
+       
+       
+    }
+
+    
+    .number2{
+        display: none;
+    }
+
+    .mall h1{
+       display: none;
+       
+    }
+
+    .number1{
+        display: none;
+    }
+
+    .box1-text3{
+        display: none;
+    }
+
+    .card{
+        display: block;
+        justify-content: center;
+    }
+
+    .card img{
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+ 
+    .footer-layer{
+        padding: 10px;
+    }
+
+    .online h5{ 
+        font-size: 1rem;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    
+    }
+
+    .online h4{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    form input{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+       font-size: 1rem;
+       text-align: left;
+       width: 70%;
+       
+    }
+
+    #name{
+        margin-right: 1px;
+    }
+
+    #email{
+        width: 70%;
+    
+    }
+
+    textarea{
+        width: 70%;
+        font-size: 1rem;
+        padding: 5px;
+        
+       
+    }
+
+    form button{
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 1rem;
+        font-weight: 100;
+        border-radius: 0px;
+        outline: none;
+       
+        
+     }
+
+    
+
+   
+
+}
+
+
